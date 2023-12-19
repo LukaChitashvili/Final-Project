@@ -214,7 +214,7 @@ h2 {
   color: rgb(33, 37, 41);
   padding-top: 50px;
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2.7rem;
   margin-right: 100px;
   font-family: "BPG Mikheil Stefane", sans-serif;
 }
@@ -302,4 +302,39 @@ h2 {
 .cube:hover {
   transition: all 0.2s linear;
   background-color: $main-color;
+}
+
+.image-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-gap: 20px;
+}
+
+.photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo img {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo:nth-child(8) {
+  margin-top: -60px;
+}
+
+.photo:nth-child(5) {
+  margin-top: 5px;
+}
+
+.photo:nth-child(2) {
+  margin-top: 30px;
+}
+
+.photo:nth-child(6) {
+  margin-top: 40px;
 }
