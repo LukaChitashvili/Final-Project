@@ -366,6 +366,7 @@ footer {
 }
 
 .foot h4 {
+  font-weight: 700;
   font-size: 20px;
   margin-left: 65px;
   margin-top: 15px;
@@ -468,7 +469,7 @@ footer {
   color: $i-color;
 }
 
-input[type="text"] {
+input[type="Email"] {
   padding-left: 20px;
   margin-top: 200px;
   margin-left: 900px;
@@ -482,7 +483,8 @@ input[type="text"] {
   vertical-align: middle;
 }
 
-input[type="button"] {
+button[type="submit"] {
+  padding-bottom: 10px;
   background-color: $main-color;
   border: none;
   color: white;
@@ -495,7 +497,11 @@ input[type="button"] {
   margin-top: 200px;
 }
 
-input[type="button"]:hover {
+button[type="submit"]:hover {
   background-color: $i-color;
   transition: all 0.2s;
+}
+
+form {
+  height: 20px;
 }
