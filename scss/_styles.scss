@@ -338,3 +338,164 @@ h2 {
 .photo:nth-child(6) {
   margin-top: 40px;
 }
+
+footer {
+  @include MyContainer2;
+  background: $body-color;
+  box-shadow: rgb(0, 0, 0) 0px 0px 15px -5px;
+  margin-right: 40px;
+  margin-left: 62px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+}
+
+.foot h1 {
+  width: 200px;
+  margin-left: 35px;
+  font-size: 20px;
+  color: #6c6c74;
+}
+
+.foot img {
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.foot h4 {
+  font-size: 20px;
+  margin-left: 65px;
+  margin-top: 15px;
+  color: black;
+}
+
+.foot .fa-phone {
+  width: 200px;
+  font-size: 16px;
+  padding-top: 15px;
+  margin-left: 65px;
+  color: #000000;
+}
+
+.lenght {
+  margin-top: -14px;
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.foot .fa-location-dot {
+  width: 350px;
+  font-size: 16px;
+  margin-top: -18px;
+  margin-left: 250px;
+  color: black;
+}
+
+.foot2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 700px;
+  margin-top: -300px;
+}
+
+.lines {
+  width: 180px;
+  height: 1px;
+  background-color: black;
+}
+
+.foot2 h1 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.foot2 h4 {
+  width: 200px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.foot2 h4:hover {
+  transition: all 0.1s;
+  color: $i-color;
+}
+
+.foot3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1100px;
+  margin-top: -31px;
+}
+
+.foot3 h1 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.foot3 h4 {
+  margin-top: 10px;
+  width: 200px;
+  padding-top: 10px;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.fonts {
+  margin-left: 1400px;
+  margin-top: -40px;
+  font-size: 28px;
+}
+
+.fonts i {
+  margin-left: 5px;
+  color: $main-color;
+}
+
+.fonts i:hover {
+  color: $i-color;
+  transition: all 0.1s ease-in-out;
+  pointer-events: auto;
+  height: 10px;
+}
+
+.foot3 h4:hover {
+  transition: all 0.1s;
+  color: $i-color;
+}
+
+input[type="text"] {
+  padding-left: 20px;
+  margin-top: 200px;
+  margin-left: 900px;
+  width: 340px;
+  height: 40px;
+  border: 1px black;
+  border-style: solid;
+  border-radius: 12px;
+  font-size: 14px;
+  color: black;
+  vertical-align: middle;
+}
+
+input[type="button"] {
+  background-color: $main-color;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 15px;
+  height: 40px;
+  vertical-align: middle;
+  margin-top: 200px;
+}
+
+input[type="button"]:hover {
+  background-color: $i-color;
+  transition: all 0.2s;
+}
