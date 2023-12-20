@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tbilisi Taste</title>
+    <link rel="stylesheet" href=".//images/font/kaushan.css" />
+    <link rel="stylesheet" href="../images/font/bpg-mikheil-stefane.min.css" />
+    <link rel="stylesheet" href="../images/font/arial-geo-bold.css" />
+    <link rel="stylesheet" type="text/css" href="../scss/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="../images/თიბისი.png" alt="თიბისი" class="TBC" />
+        <ul class="nav-bar">
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a href="../index.html">მთავარი</a></li>
+            <li class="background"><a href="order.html">შეუკვეთე ონლაინ</a></li>
+            <li><a href="#">ჩვენს შეხახებ</a></li>
+            <li><a href="#">კონტაქტი</a></li>
+            <li><a href="#">სიახლე</a></li>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-location-dot"></i>
+            <i class="fa-solid fa-user"></i>
+            <label for="check" class="close-menu">
+              <i class="fa-solid fa-xmark"></i>
+            </label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div class="container5">
+        <img src="../images/contact.webp" />
+        <div class="contact">
+          <form action="https://formspree.io/f/mwkgebbb" method="POST">
+            <div class="message-icon">
+              <i class="fa-regular fa-message"></i>
+              <span>Contact</span>
+            </div>
+            <div id="input-field">
+              <i class="fa-regular fa-user"></i>
+              <input type="text" placeholder="Name" name="name" />
+            </div>
+            <div id="input-field">
+              <i class="fa-solid fa-phone"></i>
+              <input type="text" placeholder="Phone No." name="Phone" />
+            </div>
+            <div id="input-field">
+              <i class="fa-regular fa-envelope"></i>
+              <input type="text" placeholder="Email addresss" name="Email" />
+            </div>
+            <div id="input-field">
+              <i class="fa-brands fa-rocketchat"></i>
+              <textarea
+                name="Message"
+                placeholder="Message"
+                rows="10"
+              ></textarea>
+            </div>
+            <input type="submit" value="submit" class="send-btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

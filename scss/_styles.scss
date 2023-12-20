@@ -373,6 +373,11 @@ footer {
   color: black;
 }
 
+.foot h4:hover {
+  transition: 0.1s;
+  color: $i-color;
+}
+
 .foot .fa-phone {
   width: 200px;
   font-size: 16px;
@@ -488,7 +493,7 @@ button[type="submit"] {
   background-color: $main-color;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 5px 32px;
   border-radius: 12px;
   cursor: pointer;
   margin-left: 15px;
@@ -513,8 +518,6 @@ form {
   margin-right: 40px;
   margin-top: 800px;
 }
-
-// order html
 
 .container3 {
   margin-top: 100px;
@@ -555,6 +558,7 @@ form {
   height: 220px;
   margin: 10px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .order-container img {
@@ -588,4 +592,44 @@ form {
 .order-container .item:nth-child(11) span h4 {
   padding-top: 45px;
   padding-left: 100px;
+}
+
+.order-container .item:nth-child(6) span h4 {
+  padding-top: 45px;
+}
+
+// order html
+
+.container5 {
+  margin-left: -62.69px;
+  width: 100%;
+}
+
+.container5 img {
+  width: 100%;
+  width: 1903.18px;
+}
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: #fff;
+  width: 500px;
+  padding: 30px;
+  font-size: 18px;
+}
+
+.container5 i {
+  color: $main-color;
+  font-size: 16px;
+}
+
+.container5 .fa-user {
+  margin-left: -0px;
 }
