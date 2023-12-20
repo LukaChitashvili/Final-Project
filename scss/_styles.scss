@@ -202,7 +202,7 @@ section {
 .sec {
   background: $color-2;
   margin-right: 40px;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .container {
@@ -515,3 +515,77 @@ form {
 }
 
 // order html
+
+.container3 {
+  margin-top: 100px;
+  position: relative;
+}
+
+.container3 img {
+  display: block;
+  width: 1800px;
+  height: auto;
+}
+
+.container3 h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 56px;
+  transform: translate(-50%, -50%);
+  color: white;
+  margin-left: -10px;
+}
+
+.container4 {
+  @include MyContainer3;
+  position: relative;
+}
+
+.order-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  margin-left: 200px;
+}
+
+.order-container .item {
+  position: relative;
+  width: 260px;
+  height: 220px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.order-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.25s ease;
+  filter: brightness(0.5);
+}
+
+.order-container h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 24px;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.item:hover img {
+  transform: scale(1.2);
+  filter: brightness(0.7);
+}
+
+.order-container .item:nth-child(7) h4,
+.order-container .item:nth-child(11) h4 {
+  width: 300px;
+  padding-left: 65px;
+}
+
+.order-container .item:nth-child(11) span h4 {
+  padding-top: 45px;
+  padding-left: 100px;
+}
