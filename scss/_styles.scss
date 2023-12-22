@@ -37,14 +37,12 @@ nav {
   font-size: 16px;
   color: $main-color;
   font-weight: 700;
-  font-family: "Arial GEO Bold", sans-serif;
 }
 
 i:hover {
   color: $i-color;
   transition: all 0.1s ease-in-out;
   pointer-events: auto;
-  height: 10px;
 }
 
 .menu li a::after {
@@ -95,7 +93,7 @@ i:hover {
 }
 
 #check {
-  // display: none;
+  //   display: none;
 }
 
 .fa-cart-shopping {
@@ -117,6 +115,10 @@ i:hover {
   font-size: 25px;
   margin-top: -78px;
   margin-left: 10px;
+}
+
+section .carousel {
+  margin-top: 100px;
 }
 
 // .slider {
@@ -204,10 +206,6 @@ section {
   background: $color-2;
   margin-right: 40px;
   margin-top: 40px;
-}
-
-.sec .carousel {
-  margin-top: 100px;
 }
 
 .container {

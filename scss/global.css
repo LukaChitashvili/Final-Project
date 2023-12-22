@@ -178,14 +178,12 @@ nav {
   font-size: 16px;
   color: rgb(72, 72, 72);
   font-weight: 700;
-  font-family: "Arial GEO Bold", sans-serif;
 }
 
 i:hover {
   color: rgb(100, 99, 99);
   transition: all 0.1s ease-in-out;
   pointer-events: auto;
-  height: 10px;
 }
 
 .menu li a::after {
@@ -257,6 +255,10 @@ i:hover {
   margin-left: 10px;
 }
 
+section .carousel {
+  margin-top: 100px;
+}
+
 section {
   background-color: white;
   margin-left: 63px;
@@ -266,10 +268,6 @@ section {
   background: #f5f5f5;
   margin-right: 40px;
   margin-top: 40px;
-}
-
-.sec .carousel {
-  margin-top: 100px;
 }
 
 .container {
