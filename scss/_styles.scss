@@ -37,6 +37,7 @@ nav {
   font-size: 16px;
   color: $main-color;
   font-weight: 700;
+  font-family: "Arial GEO Bold", sans-serif;
 }
 
 i:hover {
@@ -79,7 +80,7 @@ i:hover {
   color: $second-color;
   cursor: pointer;
   font-size: 1.5rem;
-  //   display: none;
+  display: none;
 }
 .open-menu {
   margin-top: 10px;
@@ -94,7 +95,7 @@ i:hover {
 }
 
 #check {
-  //   display: none;
+  // display: none;
 }
 
 .fa-cart-shopping {
@@ -118,81 +119,81 @@ i:hover {
   margin-left: 10px;
 }
 
-.slider {
-  padding-top: 100px;
-  overflow: hidden;
-  margin: 0 auto;
-  width: 1800px;
-}
+// .slider {
+//   padding-top: 100px;
+//   overflow: hidden;
+//   margin: 0 auto;
+//   width: 1800px;
+// }
 
-figure {
-  position: relative;
-  left: 0;
-  width: 400%;
-  animation: 15s slide infinite 3s;
-}
+// figure {
+//   position: relative;
+//   left: 0;
+//   width: 400%;
+//   animation: 15s slide infinite 3s;
+// }
 
-.slide {
-  position: relative;
-  width: 25%;
-  float: left;
-}
+// .slide {
+//   position: relative;
+//   width: 25%;
+//   float: left;
+// }
 
-.slide h1 {
-  position: absolute;
-  font-size: 3em;
-  width: 100%;
-  text-align: center;
-  margin-top: 400px;
-  color: $color-1;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
-}
+// .slide h1 {
+//   position: absolute;
+//   font-size: 3em;
+//   width: 100%;
+//   text-align: center;
+//   margin-top: 400px;
+//   color: $color-1;
+//   text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
+// }
 
-.slide img {
-  width: 100%;
-}
+// .slide img {
+//   width: 100%;
+// }
 
-@keyframes slide {
-  0% {
-    left: 0;
-  }
-  10% {
-    left: 0;
-  }
-  20% {
-    left: -100%;
-  }
-  30% {
-    left: -100%;
-  }
-  40% {
-    left: -200%;
-  }
-  50% {
-    left: -200%;
-  }
-  55% {
-    left: -300%;
-  }
-  65% {
-    left: -200%;
-  }
-  66% {
-    left: -200%;
-  }
-  74% {
-    left: -200%;
-  }
-  75% {
-    left: -100%;
-  }
-  85% {
-    left: -100%;
-  }
-  100% {
-    left: 0;
-  }
-}
+// @keyframes slide {
+//   0% {
+//     left: 0;
+//   }
+//   10% {
+//     left: 0;
+//   }
+//   20% {
+//     left: -100%;
+//   }
+//   30% {
+//     left: -100%;
+//   }
+//   40% {
+//     left: -200%;
+//   }
+//   50% {
+//     left: -200%;
+//   }
+//   55% {
+//     left: -300%;
+//   }
+//   65% {
+//     left: -200%;
+//   }
+//   66% {
+//     left: -200%;
+//   }
+//   74% {
+//     left: -200%;
+//   }
+//   75% {
+//     left: -100%;
+//   }
+//   85% {
+//     left: -100%;
+//   }
+//   100% {
+//     left: 0;
+//   }
+// }
 
 section {
   background-color: $color-1;
@@ -203,6 +204,10 @@ section {
   background: $color-2;
   margin-right: 40px;
   margin-top: 40px;
+}
+
+.sec .carousel {
+  margin-top: 100px;
 }
 
 .container {
@@ -694,6 +699,7 @@ textarea {
 .contactinput .inputbox input[type="submit"]:hover {
   background: #00bcd4;
   filter: brightness(1);
+  box-shadow: rgb(0, 0, 0) 0px 0px 7px -5px;
 }
 
 .circle {
