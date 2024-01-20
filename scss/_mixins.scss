@@ -25,3 +25,17 @@
   height: 500px;
   margin: 0 auto;
 }
+
+@mixin myContainernew {
+  max-width: $containerMaxWidth;
+  width: 100%;
+  height: 1200px;
+  margin: 0 auto;
+}
+
+@mixin MyContainerall {
+  max-width: $containerMaxWidth2;
+  width: 100%;
+  height: 1200px;
+  margin: 0 auto;
+}

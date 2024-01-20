@@ -7,16 +7,14 @@ header {
   box-shadow: rgb(0, 0, 0) 0px 0px 15px -5px;
   z-index: 4;
   height: 70px;
-  border-bottom-left-radius: 30%;
-  border-bottom-right-radius: 30%;
-}
-
-nav {
-  margin-left: 250px;
 }
 
 .nav-bar {
   display: flex;
+}
+
+.nav-bar i {
+  margin-top: -35px;
 }
 
 .menu {
@@ -30,13 +28,14 @@ nav {
   list-style: none;
   position: relative;
   vertical-align: middle;
-  margin-top: -80px;
+  margin-top: -35px;
 }
 
 .menu li a {
   font-size: 16px;
   color: $main-color;
   font-weight: 700;
+  text-decoration: none !important ;
 }
 
 i:hover {
@@ -52,7 +51,7 @@ i:hover {
   height: 2px;
   width: 0;
   left: 0;
-  bottom: 70px;
+  bottom: 20px;
   margin-left: 15px;
   transition: all 0.3s;
   pointer-events: none;
@@ -68,8 +67,8 @@ i:hover {
 }
 
 .TBC {
-  width: 250px;
-  margin-top: 15px;
+  width: 160px;
+  margin-top: 10px;
 }
 
 .open-menu,
@@ -121,82 +120,6 @@ section .carousel {
   margin-top: 100px;
 }
 
-// .slider {
-//   padding-top: 100px;
-//   overflow: hidden;
-//   margin: 0 auto;
-//   width: 1800px;
-// }
-
-// figure {
-//   position: relative;
-//   left: 0;
-//   width: 400%;
-//   animation: 15s slide infinite 3s;
-// }
-
-// .slide {
-//   position: relative;
-//   width: 25%;
-//   float: left;
-// }
-
-// .slide h1 {
-//   position: absolute;
-//   font-size: 3em;
-//   width: 100%;
-//   text-align: center;
-//   margin-top: 400px;
-//   color: $color-1;
-//   text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.5);
-// }
-
-// .slide img {
-//   width: 100%;
-// }
-
-// @keyframes slide {
-//   0% {
-//     left: 0;
-//   }
-//   10% {
-//     left: 0;
-//   }
-//   20% {
-//     left: -100%;
-//   }
-//   30% {
-//     left: -100%;
-//   }
-//   40% {
-//     left: -200%;
-//   }
-//   50% {
-//     left: -200%;
-//   }
-//   55% {
-//     left: -300%;
-//   }
-//   65% {
-//     left: -200%;
-//   }
-//   66% {
-//     left: -200%;
-//   }
-//   74% {
-//     left: -200%;
-//   }
-//   75% {
-//     left: -100%;
-//   }
-//   85% {
-//     left: -100%;
-//   }
-//   100% {
-//     left: 0;
-//   }
-// }
-
 section {
   background-color: $color-1;
   margin-left: 63px;
@@ -219,7 +142,7 @@ h2 {
   text-align: center;
   font-size: 2.7rem;
   margin-right: 100px;
-  font-family: "BPG Mikheil Stefane", sans-serif;
+  font-family: "Arial GEO Bold", sans-serif;
 }
 
 .img-container img {
@@ -542,6 +465,7 @@ form {
   transform: translate(-50%, -50%);
   color: white;
   margin-left: -10px;
+  font-family: "Arial GEO Bold", sans-serif;
 }
 
 .container4 {
@@ -580,6 +504,7 @@ form {
   font-size: 24px;
   transform: translate(-50%, -50%);
   color: white;
+  font-family: "Arial GEO Bold", sans-serif;
 }
 
 .item:hover img {
@@ -750,4 +675,100 @@ textarea {
 .contactfont {
   margin-top: -1200px;
   margin-left: 1100px;
+}
+
+.nTBC {
+  width: 100px;
+  margin-top: -15px;
+}
+
+.back-bar {
+  display: flex;
+}
+
+.back-bar i {
+  margin-top: -65px;
+}
+
+.fa-arrow-left {
+  margin-left: 150px;
+  font-size: 36px;
+  color: $main-color;
+}
+
+.container {
+  @include myContainernew;
+}
+
+.containernew {
+  margin-top: -15px;
+  margin-left: -65px;
+}
+
+.start {
+  position: relative;
+}
+
+.containernew img {
+  width: 1922px;
+  height: 800px;
+  filter: brightness(0.7);
+  transition: 1s;
+}
+
+.start h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 48px;
+  transform: translate(-50%, -50%);
+  color: white;
+  filter: brightness(0.8);
+}
+
+.containernew img:hover {
+  filter: brightness(0.9);
+}
+
+.container6 {
+  @include MyContainer3;
+  display: flex;
+}
+
+.infos {
+  display: flex;
+  margin-left: 315px;
+  margin-top: 150px;
+}
+
+.info {
+  background: $color-2;
+  width: 300px;
+  height: 300px;
+  margin-left: 70px;
+}
+
+.containerall {
+  @include MyContainerall;
+  margin-top: 80px;
+}
+
+.containerall h6 {
+  margin-left: 750px;
+  padding-top: 80px;
+  font-size: 28px;
+  color: #212529;
+  font-family: "Arial GEO Bold", sans-serif;
+}
+
+.containerall .img-container {
+  margin-left: 420px;
+}
+
+.containerall .box-container {
+  margin-left: 420px;
+}
+
+.containerall .box-container {
+  margin-top: -15px;
 }
