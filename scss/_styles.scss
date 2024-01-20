@@ -772,3 +772,11 @@ textarea {
 .containerall .box-container {
   margin-top: -15px;
 }
+
+.category {
+  display: none;
+}
+
+.category.active {
+  display: block;
+}
