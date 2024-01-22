@@ -51,6 +51,16 @@
     <section class="sec">
       <div class="containerall">
         <h6>კატეგორიები</h6>
+        <form id="searchForm">
+          <input type="text" id="search" placeholder="Search..." />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+        
+
+
+
 
         <div class="scrollable-tabs-container">
           <!-- <div class="left-arrow">
@@ -547,7 +557,33 @@
 
 
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var urlParams = new URLSearchParams(window.location.search);
+    var selectedCategory = urlParams.get("category");
+    var searchForm = document.getElementById("searchForm");
 
+    searchForm.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent the default form submission behavior
+
+      var searchTerm = document.getElementById("search").value.trim().toLowerCase();
+      var categories = document.getElementsByClassName("category");
+
+      for (var i = 0; i < categories.length; i++) {
+        var categoryName = categories[i].id.toLowerCase();
+        var display = "none";
+
+        if (!searchTerm && categoryName === selectedCategory) {
+          display = "block";
+        } else if (searchTerm && categoryName.includes(searchTerm)) {
+          display = "block";
+        }
+
+        categories[i].style.display = display;
+      }
+    });
+  });
+</script>
 
 
 

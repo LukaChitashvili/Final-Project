@@ -91,9 +91,10 @@ i:hover {
   margin-left: -476px;
 }
 
-// #check {
-//   //   display: none;
-// }
+#check {
+  //   display: none;
+  margin-left: -50px;
+}
 
 .fa-cart-shopping {
   margin-top: -78px;
@@ -927,4 +928,73 @@ textarea {
 .texts h4 {
   margin-left: 1000px;
   font-size: 24px;
+}
+
+.containerall input[type="text"]#search {
+  margin-left: 400px;
+  margin-top: -30px;
+}
+
+#search {
+  padding: 8px;
+  width: 200px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#search::placeholder {
+  color: #999;
+}
+
+#search:focus {
+  border-color: #007bff;
+}
+
+.containerall button[type="submit"] {
+  padding-bottom: 10px;
+  background-color: $main-color;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  border-radius: 12px;
+  cursor: pointer;
+  height: 40px;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+.texts h5 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1300px;
+  width: 100px;
+  margin-top: -60px;
+  font-size: 24px;
+  font-family: "Arial GEO Bold", sans-serif;
+}
+
+#quantityForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-left: 1250px;
+  margin-top: 10px;
+}
+
+#quantity {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#unlimited {
+  margin-left: 5px;
+}
+
+.texts button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: -1px;
 }
