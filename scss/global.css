@@ -319,10 +319,12 @@ h2 {
   margin-left: 15px;
   font-size: 20px;
   width: 100px;
+  color: black;
 }
 
 .box h3 {
   font-size: 20px;
+  color: black;
   height: 1px;
   margin-left: 40px;
   padding-top: 30px;
@@ -910,7 +912,7 @@ textarea {
 }
 
 .containerall h6 {
-  margin-left: 750px;
+  margin-left: 760px;
   padding-top: 80px;
   font-size: 28px;
   color: #212529;
@@ -935,4 +937,155 @@ textarea {
 
 .category.active {
   display: block;
+}
+
+.scrollable-tabs-container {
+  font-family: "Arial GEO Bold", sans-serif;
+  max-width: 1250px;
+  margin: 16px auto;
+  margin-left: 250px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scrollable-tabs-container svg {
+  width: 45px;
+  height: 45px;
+  padding: 8px;
+  cursor: pointer;
+  color: rgb(60, 60, 60);
+  border-radius: 50%;
+}
+
+.scrollable-tabs-container ul {
+  display: flex;
+  gap: 16px;
+  padding: 12px 24px;
+  margin: 0;
+  list-style: none;
+}
+
+.scrollable-tabs-container a {
+  color: #000000;
+  padding: 12px 24px;
+  font-family: "Arial GEO Bold", sans-serif;
+  background: white;
+  box-shadow: rgb(0, 0, 0) 0px 0px 10px -5px;
+  display: inline-block;
+  border-radius: 25px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  white-space: nowrap;
+}
+
+.scrollable-tabs-container a:hover {
+  background: #313131;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.scrollable-tabs-container .right-arrow,
+.scrollable-tabs-container .left-arrow {
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  top: 0;
+  display: none;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.scrollable-tabs-container .right-arrow.active,
+.scrollable-tabs-container .left-arrow.active {
+  display: flex;
+}
+
+.scrollable-tabs-container .right-arrow {
+  right: -15px;
+  background: linear-gradient(to left, #f5f5f5 50%, transparent);
+  justify-content: flex-end;
+}
+
+.scrollable-tabs-container .left-arrow {
+  background: linear-gradient(to left, #f5f5f5 50%, transparent);
+}
+
+.scrollable-tabs-container svg:hover {
+  background-color: #f5f5f5;
+}
+
+.background-c {
+  background: #f5f5f5;
+  height: 400px;
+  width: 600px;
+  margin-left: 200px;
+  margin-top: 150px;
+  border-radius: 20%;
+}
+
+.background-c img {
+  margin-left: -20px;
+  margin-top: 25px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.texts h2 {
+  margin-left: 350px;
+  margin-top: -450px;
+  font-family: "Arial GEO Bold", sans-serif;
+}
+
+.texts p {
+  width: 200px;
+  margin-top: 50px;
+  margin-left: 925px;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  font-family: "Arial GEO Bold", sans-serif;
+}
+
+.containerbuy {
+  max-width: 1800px;
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.texts h3:first-child {
+  margin-top: 150px;
+}
+
+.texts h3 {
+  margin-left: 850px;
+}
+
+.texts h3 {
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 21px;
+  font-family: "Arial GEO Bold", sans-serif;
+  text-align: center;
+}
+
+.texts span {
+  margin-left: 450px;
+  margin-top: 25px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.spans {
+  margin-top: -210px;
+}
+
+.texts h4 {
+  margin-left: 1000px;
+  font-size: 24px;
 }/*# sourceMappingURL=global.css.map */
